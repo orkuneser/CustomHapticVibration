@@ -1,3 +1,3 @@
 # CustomHapticVibration
 
-- ![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNmUxZDU1MDZhNTYwNzViNWE0YzE0NDBiZjFiNjExMDY1MjkzNGU5ZiZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/Dz8KTtlGVQYGpDwAuw/giphy.gif)
+- ![](<iframe src="https://giphy.com/embed/Dz8KTtlGVQYGpDwAuw" width="270" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/Dz8KTtlGVQYGpDwAuw">via GIPHY</a></p>)
