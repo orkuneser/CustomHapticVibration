@@ -1,11 +1,12 @@
 using DG.Tweening;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class AndroidHapticPanel : MonoBehaviour
+public class HapticPanel : MonoBehaviour
 {
     [SerializeField] private GameObject _hapticPanel;
-    [SerializeField] private InputField _inputField;
+    [SerializeField] private TMP_InputField _inputField;
     [SerializeField] private Button _openButton;
     [SerializeField] private Button _closeButton;
     [SerializeField] private Button _hapticButton;
@@ -26,6 +27,9 @@ public class AndroidHapticPanel : MonoBehaviour
 
     private void OnClickHaptic()
     {
+        if (_inputField.text == "")
+            return;
+
         long value = long.Parse(_inputField.text);
         CustomVibration.Vibrate(value);
     }
